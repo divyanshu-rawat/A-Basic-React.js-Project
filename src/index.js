@@ -1,10 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
-
-
-// import redux  from 'react-redux'
-// import Clock from './clock.js';
+import Clock from './clock.js';
 
 
 // function tick() {
@@ -14,12 +10,12 @@ import ReactDOM from 'react-dom';
 //   );
 // }
 
-// function tick() {
-  // ReactDOM.render(
-  //   <Clock />,
-  //   document.getElementById('root')
-  // );
-// }
+function tick() {
+  ReactDOM.render(
+    <Clock />,
+    document.getElementById('root')
+  );
+}
 
 
 // However, writing a Redux application produces a lot of boilerplate code. 
@@ -30,7 +26,7 @@ import ReactDOM from 'react-dom';
 
 // State is similar to props, but it is private and fully controlled by the component.
 
-// setInterval(tick, 1000);
+setInterval(tick, 1000);
 
 
 // Every React component maintains props and state.
